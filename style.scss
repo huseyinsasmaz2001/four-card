@@ -1,0 +1,97 @@
+// Variables de couleurs pour chaque carte
+$cyan: #7fd4cc;
+$red: #ff6961;
+$orange: #ffb347;
+$blue: #aec6cf;
+
+// Mixin pour les cartes avec image
+@mixin card-with-image($bg-color, $icon-color) {
+    @include card($bg-color);
+  
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px 5px 0 0; // Optionnel : ajustez le style du coin supérieur de l'image
+    }
+  
+    h2 {
+      position: relative;
+      padding-left: 10px; // Ajustez l'espace entre l'icône et le titre si nécessaire
+  
+      i {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 20px;
+        color: $icon-color;
+      }
+    }
+  }
+
+// Mixin pour les cartes
+@mixin card($bg-color) {
+  background-color: $bg-color;
+  padding: 20px;
+  width: 300px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 16px;
+    color: #555;
+  }
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+// Appliquer les styles pour chaque section de carte
+.cyan {
+  @include card($cyan);
+  @include card-with-image($cyan, $cyan);
+}
+
+.red {
+  @include card($red);
+  @include card-with-image($red, $red);
+}
+
+.orange {
+  @include card($orange);
+  @include card-with-image($orange, $orange);
+}
+
+.blue {
+  @include card($blue);
+  @include card-with-image($blue, $blue);
+}
+
+// Styles généraux
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 20px auto;
+}

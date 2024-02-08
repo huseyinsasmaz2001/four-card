@@ -1,0 +1,243 @@
+.cyan {
+  background-color: #7fd4cc;
+  padding: 20px;
+  width: 300px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  background-color: #7fd4cc;
+  padding: 20px;
+  width: 300px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+.cyan h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.cyan p {
+  font-size: 16px;
+  color: #555;
+}
+.cyan:hover {
+  transform: scale(1.05);
+}
+.cyan h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.cyan p {
+  font-size: 16px;
+  color: #555;
+}
+.cyan:hover {
+  transform: scale(1.05);
+}
+.cyan img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px 5px 0 0;
+}
+.cyan h2 {
+  position: relative;
+  padding-left: 10px;
+}
+.cyan h2 i {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #7fd4cc;
+}
+
+.red {
+  background-color: #ff6961;
+  padding: 20px;
+  width: 300px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  background-color: #ff6961;
+  padding: 20px;
+  width: 300px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+.red h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.red p {
+  font-size: 16px;
+  color: #555;
+}
+.red:hover {
+  transform: scale(1.05);
+}
+.red h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.red p {
+  font-size: 16px;
+  color: #555;
+}
+.red:hover {
+  transform: scale(1.05);
+}
+.red img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px 5px 0 0;
+}
+.red h2 {
+  position: relative;
+  padding-left: 10px;
+}
+.red h2 i {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #ff6961;
+}
+
+.orange {
+  background-color: #ffb347;
+  padding: 20px;
+  width: 300px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  background-color: #ffb347;
+  padding: 20px;
+  width: 300px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+.orange h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.orange p {
+  font-size: 16px;
+  color: #555;
+}
+.orange:hover {
+  transform: scale(1.05);
+}
+.orange h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.orange p {
+  font-size: 16px;
+  color: #555;
+}
+.orange:hover {
+  transform: scale(1.05);
+}
+.orange img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px 5px 0 0;
+}
+.orange h2 {
+  position: relative;
+  padding-left: 10px;
+}
+.orange h2 i {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #ffb347;
+}
+
+.blue {
+  background-color: #aec6cf;
+  padding: 20px;
+  width: 300px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  background-color: #aec6cf;
+  padding: 20px;
+  width: 300px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+.blue h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.blue p {
+  font-size: 16px;
+  color: #555;
+}
+.blue:hover {
+  transform: scale(1.05);
+}
+.blue h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.blue p {
+  font-size: 16px;
+  color: #555;
+}
+.blue:hover {
+  transform: scale(1.05);
+}
+.blue img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px 5px 0 0;
+}
+.blue h2 {
+  position: relative;
+  padding-left: 10px;
+}
+.blue h2 i {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #aec6cf;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 20px auto;
+}/*# sourceMappingURL=style.css.map */
